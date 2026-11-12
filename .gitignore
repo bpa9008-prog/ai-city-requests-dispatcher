@@ -1,0 +1,6 @@
+__pycache__/
+_pv/
+_preview/
+*.pyc
+.env
+scripts/05_build_report.py

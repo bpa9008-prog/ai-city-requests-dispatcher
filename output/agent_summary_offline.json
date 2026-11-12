@@ -1,0 +1,32 @@
+{
+  "mode": "offline",
+  "model": "keyword rules (без LLM)",
+  "n": 56,
+  "agent_accuracy": 0.964,
+  "operator_initial_accuracy": 0.625,
+  "agent_accuracy_on_operator_errors": 0.905,
+  "auto_route_share": 0.661,
+  "auto_route_accuracy": 1.0,
+  "needs_review_share": 0.339,
+  "no_card_share": 0.0,
+  "agent_high_share": 0.196,
+  "operator_high_share": 0.196,
+  "avg_input_tokens": 0.0,
+  "avg_output_tokens": 0.0,
+  "avg_llm_calls": 0.0,
+  "seconds_total": 0.2,
+  "errors": [
+    {
+      "request_id": 51720,
+      "true_category": "other",
+      "agent_category": "water",
+      "text": "Уважаемые сотрудники! Бродячие собаки во дворе по адресу ул. Заводская, д. 58. Спасибо."
+    },
+    {
+      "request_id": 50380,
+      "true_category": "yard",
+      "agent_category": "water",
+      "text": "Прошу помочь. Аварийное дерево может упасть по адресу ул. Заводская, д. 65. Обращаюсь уже третий раз!"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "mode": "llm",
+  "model": "openai/gpt-oss-120b",
+  "n": 56,
+  "agent_accuracy": 0.964,
+  "operator_initial_accuracy": 0.625,
+  "agent_accuracy_on_operator_errors": 1.0,
+  "auto_route_share": 0.607,
+  "auto_route_accuracy": 1.0,
+  "needs_review_share": 0.393,
+  "no_card_share": 0.0,
+  "agent_high_share": 0.375,
+  "operator_high_share": 0.196,
+  "avg_input_tokens": 4629.9,
+  "avg_output_tokens": 664.8,
+  "avg_llm_calls": 4.0,
+  "seconds_total": 1131.0,
+  "errors": [
+    {
+      "request_id": 51541,
+      "true_category": "yard",
+      "agent_category": "other",
+      "text": "Аварийное дерево может упасть по адресу ул. Садовая, д. 45. Прошу принять меры."
+    },
+    {
+      "request_id": 50106,
+      "true_category": "road",
+      "agent_category": "yard",
+      "text": "Добрый день. Яма во дворе машины бьют колёса по адресу ул. Парковая, д. 65. Уже был несчастный случай."
+    }
+  ]
+}

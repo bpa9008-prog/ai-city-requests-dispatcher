@@ -1,0 +1,32 @@
+{
+  "n_clean": 2601,
+  "period": "01.03.2026 – 31.08.2026",
+  "per_month": 434.0,
+  "reroute_rate": 0.1136,
+  "n_closed_known": 2245,
+  "triage_median": 5.9,
+  "triage_mean": 6.44,
+  "resp_median_ok": 20.8,
+  "resp_median_rerouted": 63.7,
+  "sat_ok": 4.03,
+  "sat_rerouted": 2.8,
+  "resolved_rate": 0.9058,
+  "urgent_n": 515,
+  "urgent_not_high": 0.501,
+  "corr_resp_sat": -0.552,
+  "text_len_median": 87,
+  "channels": {
+    "portal": 0.371,
+    "phone": 0.313,
+    "telegram": 0.196,
+    "email": 0.12
+  },
+  "top_confusions": [
+    "мусор -> ошибочно благоустройство: 65",
+    "дороги -> ошибочно благоустройство: 55",
+    "благоустройство -> ошибочно мусор: 41",
+    "водоснабжение -> ошибочно отопление: 32",
+    "освещение -> ошибочно прочее: 32",
+    "прочее -> ошибочно благоустройство: 21"
+  ]
+}

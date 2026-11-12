@@ -1,0 +1,98 @@
+[
+  {
+    "request": {
+      "request_id": 90001,
+      "created_at": "2026-08-20 08:15",
+      "channel": "telegram",
+      "text": "Добрый день, на Садовой 12 со вчерашнего вечера из крана вообще ничего не идёт, в доме пожилые люди, управляйка трубку не берёт. Сделайте что-нибудь!"
+    },
+    "card": {
+      "request_id": 90001,
+      "category": "water",
+      "priority": "high",
+      "district": "Не указан",
+      "street": "Садовой",
+      "house": 12,
+      "summary": "Нет воды из крана в квартире",
+      "priority_reason": "Отсутствие воды в доме, пожилые жители, угроза здоровью",
+      "confidence": 0.98,
+      "reply_draft": "Добрый день! Ваша заявка передана в Водоканал, ожидайте решение в течение 5–7 часов.",
+      "department": "Водоканал, аварийно-диспетчерская служба",
+      "status": "needs_review",
+      "review_reason": "высокий приоритет — диспетчер подтверждает выезд; адрес не распознан",
+      "operator_decision": "ожидает оператора"
+    },
+    "calls": [
+      "lookup_address",
+      "get_routing_and_sla",
+      "submit_triage_card"
+    ],
+    "input_tokens": 4689,
+    "output_tokens": 727,
+    "llm_calls": 4
+  },
+  {
+    "request": {
+      "request_id": 90002,
+      "created_at": "2026-08-20 09:40",
+      "channel": "portal",
+      "text": "Здравствуйте! Контейнерная площадка переполнена по адресу ул. Полярная, д. 96. Возле площадки ещё и мусор валяется, дети играют рядом на качелях."
+    },
+    "card": {
+      "request_id": 90002,
+      "category": "garbage",
+      "priority": "medium",
+      "district": "Северный",
+      "street": "Полярная",
+      "house": 96,
+      "summary": "Переполненный контейнер и мусор рядом с площадкой",
+      "priority_reason": "Переполненный контейнер и мусор рядом, создаёт опасность для детей",
+      "confidence": 0.98,
+      "reply_draft": "Мы передали вашу заявку в отдел вывоза ТКО. Ожидайте решение в течение примерно 12‑13 часов.",
+      "department": "Региональный оператор по вывозу ТКО",
+      "status": "auto_route",
+      "review_reason": "маршрут в службу автоматически; ответ гражданину — после утверждения оператором",
+      "operator_decision": "ожидает оператора"
+    },
+    "calls": [
+      "lookup_address",
+      "get_routing_and_sla",
+      "submit_triage_card"
+    ],
+    "input_tokens": 4685,
+    "output_tokens": 674,
+    "llm_calls": 4
+  },
+  {
+    "request": {
+      "request_id": 90003,
+      "created_at": "2026-08-20 10:05",
+      "channel": "email",
+      "text": "см. вложение"
+    },
+    "card": {
+      "request_id": 90003,
+      "category": "other",
+      "priority": "low",
+      "district": "Не указан",
+      "street": "",
+      "house": 0,
+      "summary": "Отсутствует описание проблемы",
+      "priority_reason": "Недостаточно информации для оценки срочности",
+      "confidence": 0.2,
+      "reply_draft": "Спасибо за обращение. Мы рассмотрим ваш запрос в течение 29 часов и свяжемся с вами при необходимости.",
+      "department": "Администрация района (общий отдел)",
+      "status": "needs_review",
+      "review_reason": "низкая уверенность 0.2; адрес не распознан",
+      "operator_decision": "ожидает оператора"
+    },
+    "calls": [
+      "lookup_address",
+      "get_routing_and_sla",
+      "submit_triage_card"
+    ],
+    "input_tokens": 4485,
+    "output_tokens": 636,
+    "llm_calls": 4
+  }
+]
